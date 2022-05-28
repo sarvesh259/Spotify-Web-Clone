@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Slab&display=swap');
+
+body {
+    background-color: rgb(137, 115, 187)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Roboto Slab', serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 56px;
+    background-color: black;
+    color: antiquewhite;
+
+}
+
+nav ul li {
+    padding: 0 14px;
+}
+
+.brand img {
+    padding: 7px;
+    width: 45px;
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.container {
+    min-height: 75vh;
+    background-color: black;
+    color: rgb(142, 155, 105);
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    width: 70%;
+    border-radius: 13px;
+    margin: 20px auto;
+    background-image: url('/resources/bg.jpg');
+    padding: 30px;
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 12px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#range {
+    width: 190vh;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songitem {
+    width: 315px;
+    height: 40px;
+    color: darkblue;
+    display: flex;
+    margin: 12px 0;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px;
+
+}
+
+.songitemcontainer {
+    margin-top: 72px;
+}
+
+.songitem img {
+    width: 32px;
+    margin: 0 23px;
+    border-radius: 35px;
+}
+
+.timestamp {
+    padding: 5px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songinfo {
+    position: absolute;
+    left: 4.5vw;
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+.previous {
+    margin-left: 50px;
+}
